@@ -40,18 +40,11 @@ namespace Mariani_CodaPrioritaria
             }
 
             return indirizzo;
-           
         }
 
-        public void Visualizza()
+        public object LetturaPrimoElemento()
         {
-            int i = 0;
-            foreach (int id in lista) 
-            {
-                Console.WriteLine(lista[i]);
-
-                i++;
-            }
+            return lista[0];
         }
     }
 }
